@@ -1,0 +1,12 @@
+var names = "hello";
+var count = 333;
+var types = false;
+var money = 333;
+var employee = ['a', 'b'];
+employee.push('c');
+employee.push("3333");
+employee.push(324234);
+document.getElementById('h1').innerHTML = names;
+document.write('type is ' + typeof (names));
+console.log('hello');
+console.log(employee.toString());
