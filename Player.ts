@@ -7,7 +7,7 @@ interface Player {
     attack: () => string
 }
 
-let p1:Player = {
+let player:Player = {
     id:1,
     name:"hello player",
     hp:100,
@@ -17,4 +17,4 @@ let p1:Player = {
     }
 };
 
-console.log(p1.attack());
+console.log(player.attack());

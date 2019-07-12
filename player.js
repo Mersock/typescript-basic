@@ -1,4 +1,4 @@
-var p1 = {
+var player = {
     id: 1,
     name: "hello player",
     hp: 100,
@@ -7,4 +7,4 @@ var p1 = {
         return "attack";
     }
 };
-console.log(p1.attack());
+console.log(player.attack());
