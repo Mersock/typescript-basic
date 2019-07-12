@@ -44,6 +44,9 @@ var Employee = /** @class */ (function (_super) {
     function Employee() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
+    Employee.prototype.display = function () {
+        console.log('eeeeee');
+    };
     return Employee;
 }(Person));
 var e1 = new Employee(2222, 'employee', 1, 3333333);

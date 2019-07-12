@@ -38,7 +38,9 @@ console.log(p1.getDepartment());
 
 //extend
 class Employee extends Person{
-
+    display(): void {
+        console.log('eeeeee');
+    }
 }
 
 let e1 = new Employee(2222,'employee',1,3333333);
