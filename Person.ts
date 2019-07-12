@@ -39,6 +39,7 @@ console.log(p1.getDepartment());
 //extend
 class Employee extends Person{
     display(): void {
+        super.display();
         console.log('eeeeee');
     }
 }
